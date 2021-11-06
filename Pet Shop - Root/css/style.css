@@ -1,0 +1,65 @@
+/*Header: Menu navegación 1*/
+
+.menu_nav_1 {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 100px;
+    height: 20px;
+    display: flex;
+}
+
+div{
+    position: absolute;
+    right: 30px;
+}
+
+/*Header: Logo y Menu navegación 2*/
+
+.menu_nav_2 {
+    background-color:#F0A83E;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    height: 62px;
+}
+
+#Menu_1 {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+.categoria li {
+    display: inline;
+}
+
+#Logo {
+    position: absolute;
+    width: 166.38px;
+    height: 23px;
+    left: 40px;
+    top: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+/*Main: Seccion Bowl*/
+
+.portada {
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-size: cover;
+    height: 409px;
+}
+
+
