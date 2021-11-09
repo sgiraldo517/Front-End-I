@@ -7,8 +7,8 @@
     <title>Pet Shop</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
 </head>
 <body>
@@ -33,53 +33,54 @@
             <img id="Logo" src="img/Logo.png" alt="FrontCat&Dog">
             <div id="Menu_1">
                 <ul class="categoria" type = none>
-                    <li><i class="fas fa-paw"></i><a href="#">Categorias</a></li>
-                    <li><i class="fas fa-paw"></i><a href="#">Pets</a></li>
-                    <li><i class="fas fa-paw"></i><a href="#">Nosotros</a></li>
-                    <li><i class="fas fa-paw"></i><a href="#">Contactenos</a></li>
+                    <li><i class="fas fa-paw"></i><a class="nav-menu2" href="#">Categorias</a></li>
+                    <li><i class="fas fa-paw"></i><a class="nav-menu2" href="#">Pets</a></li>
+                    <li><i class="fas fa-paw"></i><a class="nav-menu2" href="#">Nosotros</a></li>
+                    <li><i class="fas fa-paw"></i><a class="nav-menu2" href="#">Contactenos</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <!--Main: Seccion Bowl-->
         <section class="portada">
-            <h2>¡Es un placer tenerte aquí! </h2>
-            <h3>¡Comederos en descuento!</h3>
-            <p><a href="#">COMEDEROS</a></p>
+            <div class = "titulo-portada">¡Es un placer tenerte aquí! </div>
+            <div class = "subtitulo-portada">¡Comederos en descuento!</div>
+            <p class = "titulo3"><a href="#">COMEDEROS</a></p>
         </section>
     <!--Main: Seccion Productos Destacados-->
         <section>
+            <img class="paw" src="img/pawprint 1.png" alt="paw">
             <h1>Productos Destacados</h1>
-            <ul>
+            <ul class = "Menu_2" type =none>
                 <li><a href="#">Comederos</a></li>
-                <li><a href="#">Accesorios</a></li>
-                <li><a href="#">Comida</a></li>
+                <li><a href="#"> - Accesorios</a></li>
+                <li><a href="#"> - Comida</a></li>
             </ul>
-            <p><img src="img/churrasquito.png" alt="churrasquito"><br><span>Juguete Churrasquito</span><br>$150</p>
-            <p><img src="img/comedero.png" alt="comedero"><br><span>Comedero para perro</span><br>$250</p>
-            <p><img src="img/Huesito.png" alt="Huesito"><br><span>Juguete Huesito</span><br>$650</p>
+            <p class = "dest2"><img src="img/churrasquito.png" alt="churrasquito"><br><span class = "dest">Juguete Churrasquito</span><br>$150</p>
+            <p class = "dest2"><img src="img/comedero.png" alt="comedero"><br><span class = "dest" =>Comedero para perro</span><br>$250</p>
+            <p class = "dest2"><img src="img/Huesito.png" alt="Huesito"><br><span class = "dest">Juguete Huesito</span><br>$650</p>
         </section>
     <!--Main: Seccion Contactenos-->
         <section>
-            <h2>Contáctenos</h2>
-            <ul>
-                <li>Nombre y Apellido</li>
-                <li>Ingresá tu correo electrónico</li>
-                <li>Teléfono</li>
+            <h2 class = "contact">Contáctenos</h2>
+            <ul id="Contactenos" type = none>
+                <li class = "form1">Nombre y Apellido</li>
+                <li class = "form2">Ingresá tu correo electrónico</li>
+                <li class = "form3">Teléfono</li>
             </ul>
         </section>
     <footer>
     <!--Footer: Parte 1-->
-        <p>Suscríbete para más novedades</p>
+        <p><img src="img/enviar-correo 1.png"> Suscríbete para más novedades</p>
     <!--Footer: Parte 2-->
-        <ul>
-            <li><span>Localidad</span><br>Calle - provincia</li>
-            <li><span>Teléfono</span><br>Número de teléfono</li>
-            <li><span>Correo Electrónico</span><br>Dirección de correo</li>
+        <ul class = "datos" type = none>
+            <li><img src="img/Icono1.png"> <span>Localidad</span><br>Calle - provincia</li>
+            <li><img src="img/Icono2.png"> <span>Teléfono</span><br>Número de teléfono</li>
+            <li><img src="img/Icono3.png"> <span>Correo Electrónico</span><br>Dirección de correo</li>
         </ul>
-        <img src="img/Logo.png" alt="FrontCat&Dog">
-    <!--Footer: Parte -->
-        <h4>Todos los derechos reservados Front End</h4>
+        <img src="img/Logo2.png" alt="FrontCat&Dog">
+    <!--Footer: Parte 3-->
+        <p class = "derechos">Todos los derechos reservados Front End</p>
     </footer>
 </body>
 </html>
