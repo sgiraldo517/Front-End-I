@@ -17,18 +17,8 @@ body {
     padding-left: 100px;
     height: 20px;
     display: flex;
+    justify-content: space-between;
 }
-
-nav>label {
-    position: relative;
-    top: 2.5px;
-}
-
-div{
-    position: absolute;
-    right: 30px;
-}
-
 
 /*Header: Logo y Menu navegación 2*/
 
@@ -40,26 +30,18 @@ div{
     line-height: 15px;
     font-size: 13px;
     height: 62px;
-}
-
-#Menu_1 {
-    position: absolute;
-    right: 30px;
-    top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .categoria li {
     display: inline;
-    position: relative;
-    bottom: 10px;
 }
 
 #Logo {
-    position: absolute;
-    width: 166.38px;
-    height: 23px;
-    left: 40px;
-    top: 40px;
+    padding-left:  45px;
+    padding-top: 10px;
 }
 
 nav>div>ul>li>a {
@@ -81,6 +63,13 @@ nav>div>ul>li>a {
     height: 409px;
     position: relative;
     bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#titulos-portada {
+    margin-right: 3%;
 }
 
 .titulo-portada {
@@ -90,8 +79,7 @@ nav>div>ul>li>a {
     font-weight: 400;
     font-size: 30px;
     color:#3C2313;
-    position: absolute;
-    top: 200px;
+
 }
 
 .subtitulo-portada {
@@ -101,9 +89,6 @@ nav>div>ul>li>a {
     line-height: 19px;
     text-align: center;
     color: #3C2313;
-    position: absolute;
-    top: 257px;
-    right: 110px;
 }
 
 .titulo3 {
@@ -114,22 +99,31 @@ nav>div>ul>li>a {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    position: absolute;
-    top: 290px;
-    right: 150px;
-    padding: 15px
+    width: 141px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
 }
 
-section>p>a {
+#titulo3 {
     color:#FFFFFF;
 }
 
 
 /*Main: Seccion Productos Destacados*/
 
-.paw {
-    display: block;
-    margin: auto;
+#titulo-pd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#paw {
+    width: 67px;
+    height: 71px;
 }
 
 h1 {
@@ -139,14 +133,15 @@ h1 {
     font-size: 40px;
     line-height: 47px;
     color: #3C2313;
-    margin: auto;
 }
 
-.Menu_2 li {
+.menu_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_2 li {
     display: inline;
-    position: relative;
-    left:40%;
-    right: 60%;
 }
 
 section>ul>li>a {
@@ -156,15 +151,22 @@ section>ul>li>a {
     font-size: 15px;
     line-height: 18px;
     color: #666666;
+    padding: 5px;
+}
+
+.menu-prod {
+    display: flex;
+    justify-content: center;
 }
 
 .dest {
     font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-color: #3C2313;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+    text-align: center;
 }
 
 .dest2 {
@@ -174,9 +176,17 @@ font-weight: 500;
 font-size: 15px;
 line-height: 18px;
 color: #F0A83E;
+margin-right: 1%;
 }
 
 /* Main: Seccion Contactenos */
+
+.menu-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .contact {
     font-family: Roboto;
@@ -185,22 +195,13 @@ color: #F0A83E;
     font-size: 25px;
     line-height: 29px;
     color: #3C2313;
-    position: relative;
-    left: 45%;
-    right: 55%;
-}
-
-#Contactenos {
-    position: relative;
 }
 
 .form1 {
     background-color: #3C2313;
     border-radius: 15px;
-    position: absolute;
     width: 340px;
     height: 40px;
-    left: calc(50% - 340px/2 + 1px);
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -215,11 +216,8 @@ color: #F0A83E;
 .form2 {
     background-color: #3C2313;
     border-radius: 15px;
-    position: absolute;
     width: 340px;
     height: 40px;
-    left: calc(50% - 340px/2 + 1px);
-    top: calc(50% - 40px/2 + 70px);
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -229,16 +227,15 @@ color: #F0A83E;
     padding-top: 15px;
     padding-left: 10px;
     box-sizing: border-box;
+    margin-top: 1.5vh;
+    
 }
 
 .form3 {
     background-color: #3C2313;
     border-radius: 15px;
-    position: absolute;
     width: 340px;
     height: 40px;
-    left: calc(50% - 340px/2 + 1px);
-    top: calc(50% - 40px/2 + 120px);
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -248,14 +245,10 @@ color: #F0A83E;
     padding-top: 15px;
     padding-left: 10px;
     box-sizing: border-box;
+    margin-top: 1.5vh;
 }
 
 /* Footer: Parte 1 */
-
-footer {
-    position: relative;
-    top: 160px;
-}
 
 footer>p{
     background-color: #F0A83E;
@@ -273,15 +266,18 @@ footer>p{
 
 /* Footer: Parte 2 */ 
 
-.datos {
+#footer-2 {
     background-color: #3C2313;
     position: relative;
     bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-footer>ul>li>span {
+footer>div>ul>li>span {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -290,7 +286,7 @@ footer>ul>li>span {
     color: #FFFFFF;
 }
 
-footer>ul>li {
+footer>div>ul>li {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -298,13 +294,6 @@ footer>ul>li {
     line-height: 12px;
     color: #8A8787;
 }
-
-footer>img {
-    position: absolute;
-    right: 30px;
-    top: 200px;
-}
-
 
 /* Footer: Parte 3 */ 
 .derechos {
@@ -324,6 +313,74 @@ footer>img {
 
 
 
+/* Media queries del sitio wev */
+
+@media (min-width: 481px) {
+    
+    #hamburguer {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .menu_nav_1 {
+        display: none;
+    }
+    
+
+    .categoria {
+        display: none;
+    }
+
+    .menu_nav_2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    #hamburger {
+        margin-right: 10vw;
+    }
+
+    #titulos-portada {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu_2 {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 10vw;
+    }
+
+    .menu-prod {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #footer-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #logo-cont {
+        order: -1;
+    }
+
+}
 
 
 

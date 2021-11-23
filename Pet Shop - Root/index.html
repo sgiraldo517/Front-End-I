@@ -30,7 +30,9 @@
         </nav>
     <!--Header: Logo y Menu navegación 2-->
         <nav class="menu_nav_2">
-            <img id="Logo" src="img/Logo.png" alt="FrontCat&Dog">
+            <div>
+                <img id="Logo" src="img/Logo.png" alt="FrontCat&Dog">
+            </div>
             <div id="Menu_1">
                 <ul class="categoria" type = none>
                     <li><i class="fas fa-paw"></i><a class="nav-menu2" href="#">Categorias</a></li>
@@ -38,30 +40,41 @@
                     <li><i class="fas fa-paw"></i><a class="nav-menu2" href="#">Nosotros</a></li>
                     <li><i class="fas fa-paw"></i><a class="nav-menu2" href="#">Contactenos</a></li>
                 </ul>
+                <div id="hamburger">
+                <i class="fas fa-bars fa-lg"></i>
+                </div>
             </div>
         </nav>
     </header>
     <!--Main: Seccion Bowl-->
         <section class="portada">
-            <div class = "titulo-portada">¡Es un placer tenerte aquí! </div>
-            <div class = "subtitulo-portada">¡Comederos en descuento!</div>
-            <p class = "titulo3"><a href="#">COMEDEROS</a></p>
+            <div id="titulos-portada">
+                <h3 class = "titulo-portada">¡Es un placer tenerte aquí! </h3>
+                <h4 class = "subtitulo-portada">¡Comederos en descuento!</h4>
+                <p class = "titulo3"><a id ="titulo3" href="#">COMEDEROS</a></p>
+            </div>
         </section>
     <!--Main: Seccion Productos Destacados-->
         <section>
-            <img class="paw" src="img/pawprint 1.png" alt="paw">
-            <h1>Productos Destacados</h1>
-            <ul class = "Menu_2" type =none>
+            <div id = "titulo-pd">
+                <img id="paw" src="img/pawprint 1.png" alt="paw">
+                <h1><span>Productos </span><span >Destacados</span></h1>
+            </div>
+            <ul class = "menu_2" type =none>
                 <li><a href="#">Comederos</a></li>
-                <li><a href="#"> - Accesorios</a></li>
-                <li><a href="#"> - Comida</a></li>
+                <li>-</li>
+                <li><a href="#">Accesorios</a></li>
+                <li>-</li>
+                <li><a href="#">Comida</a></li>
             </ul>
-            <p class = "dest2"><img src="img/churrasquito.png" alt="churrasquito"><br><span class = "dest">Juguete Churrasquito</span><br>$150</p>
-            <p class = "dest2"><img src="img/comedero.png" alt="comedero"><br><span class = "dest" =>Comedero para perro</span><br>$250</p>
-            <p class = "dest2"><img src="img/Huesito.png" alt="Huesito"><br><span class = "dest">Juguete Huesito</span><br>$650</p>
+            <div class="menu-prod">
+                <p class = "dest2"><img src="img/churrasquito.png" alt="churrasquito"><br><span class = "dest">Juguete Churrasquito</span><br>$150</p>
+                <p class = "dest2"><img src="img/comedero.png" alt="comedero"><br><span class = "dest" =>Comedero para perro</span><br>$250</p>
+                <p class = "dest2"><img src="img/Huesito.png" alt="Huesito"><br><span class = "dest">Juguete Huesito</span><br>$650</p>
+            </div>
         </section>
     <!--Main: Seccion Contactenos-->
-        <section>
+        <section class="menu-form">
             <h2 class = "contact">Contáctenos</h2>
             <ul id="Contactenos" type = none>
                 <li class = "form1">Nombre y Apellido</li>
@@ -73,12 +86,16 @@
     <!--Footer: Parte 1-->
         <p><img src="img/enviar-correo 1.png"> Suscríbete para más novedades</p>
     <!--Footer: Parte 2-->
+        <div id ="footer-2">
         <ul class = "datos" type = none>
             <li><img src="img/Icono1.png"> <span>Localidad</span><br>Calle - provincia</li>
             <li><img src="img/Icono2.png"> <span>Teléfono</span><br>Número de teléfono</li>
             <li><img src="img/Icono3.png"> <span>Correo Electrónico</span><br>Dirección de correo</li>
         </ul>
-        <img src="img/Logo2.png" alt="FrontCat&Dog">
+        <div id="logo-cont">
+            <img src="img/Logo2.png" alt="FrontCat&Dog">
+        </div>
+        </div>
     <!--Footer: Parte 3-->
         <p class = "derechos">Todos los derechos reservados Front End</p>
     </footer>

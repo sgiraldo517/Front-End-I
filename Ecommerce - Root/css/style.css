@@ -1,0 +1,284 @@
+* { 
+	Box-sizing: border-box;
+    margin: 0px;
+	}
+
+.top {
+    background-color: #1CD1B0;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 5vh;
+}
+
+.header-heroes {
+    background: #00669F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 15vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.titulo-heroes {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding: 26px;
+}
+
+.menu-login {
+    background: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-log {
+    display: inline;
+    padding-right: 2vw;
+}
+
+#menu-log {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 25%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 5%;
+}
+
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button {
+    background-color: #00669F;
+    color: #F3F3F3;
+    width: 128.78px;
+    height: 48.52px;
+    margin-bottom: 25px;
+    border: #00669F;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 10%;
+    color: #F3F3F3;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Batman */
+
+.batman {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    height: 293px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.img-fond-bat {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.vector-bat {
+    Width: 30px;
+    Height: 26px;
+    position: absolute;
+    left: 16px;
+    bottom: 125%;
+}
+
+
+/* Harley */
+
+.harley {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    height: 293px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.img-fond-har {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.vector-har {
+    Width: 30px;
+    Height: 26px;
+    position: absolute;
+    left: 16px;
+    bottom: 125%;
+}
+
+/* ------------------- Registro.html ---------------------------*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo-reg {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 72px;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 3vh;
+    margin-top: 15vh;
+}
+
+.label-form {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    color: #000000;
+}
+
+.caja {
+    width: 40vw;
+    height: 10vh;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    box-sizing: border-box;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+#bot-resetear {
+    background: #888888;
+    border-radius: 23px;
+    border: none; 
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 18vw;
+    height: 40px;
+    margin: 3vh;
+}
+
+#bot-reg {
+    background: #1CD1B0;
+    border-radius: 23px;
+    border: none; 
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    width: 18vw;
+    height: 40px;
+    margin: 3vh;
+}
+
+#cuenta {
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------- Login.html ---------------------------*/
+
+#bot-entrar {
+    background: #1CD1B0;
+    border-radius: 23px;
+    border: none; 
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    width: 40vw;
+    height: 40px;
+    margin: 3vh;
+}
+
+/* ------------------- Media Query ---------------------------*/
+
+@media (max-width: 480px) {
+
+    .conteiner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
